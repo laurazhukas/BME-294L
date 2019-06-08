@@ -10,6 +10,7 @@ C = 0.000000033
 Tau = R*C
 Vi = 1 #voltage peak to peak
 frequency = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, 4000, 10000]
+
 w = []
 for i in range(len(frequency)):
     w.append(2*np.pi*frequency[i])
